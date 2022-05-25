@@ -34,6 +34,7 @@ def solution(n, computers):
     count = n
     uf = UnionFind(n)
     for edge in edges:
-        uf.union(edge[0], edge[1])
-        count -= 1
+        if not uf.isConnected(edge[0], edge[1]):
+            uf.union(edge[0], edge[1])
+            count -= 1
     return count
