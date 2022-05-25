@@ -35,6 +35,9 @@ for _ in range(N-1):
         resultX = x + 1
     num += 1
     
+if val == 1:
+    resultY = N // 2 + 1
+    resultX = N // 2 + 1
     
 for row in range(N):
     print(" ".join(map(str, board[row])))
