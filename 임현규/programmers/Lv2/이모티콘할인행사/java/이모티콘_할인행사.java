@@ -151,7 +151,7 @@ class Product {
         for (T item : items) {
             tempList.add(item);
             backTrack(answer, items, tempList, length);
-            tempList.remove(item);
+            tempList.remove(tempList.size() - 1);
         }
     }
 }
