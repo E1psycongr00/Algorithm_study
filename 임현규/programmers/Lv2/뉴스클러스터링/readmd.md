@@ -1,6 +1,6 @@
 # 뉴스 클러스터링
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/17677)
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/17677?language=python3)
 
 ## 문제 요구 사항
 
@@ -23,8 +23,3 @@
 
 - 중복을 허용하는 집합을 만든후 자카드 유사도를 구해야함.
 
-## 예제
-
-[3, 0, 6, 1, 5]
-
-n 은 5고 3편의 논문은 3회 이상 인용됨 나머지 2편의 논문은 3회 이하로 인용되었기 때문에 H-index는 3
